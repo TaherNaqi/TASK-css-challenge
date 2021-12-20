@@ -1,11 +1,24 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  overflow-y: scroll;
 }
 .head {
+  font-family: monospace;
+  font-size: 14px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  padding: 8px;
+  background-color: rgb(209, 137, 2);
+  color: rgb(255, 255, 255);
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: rgb(245, 243, 165);
+  color: black;
 }
 
 /* This is a gift - Does not need editing */

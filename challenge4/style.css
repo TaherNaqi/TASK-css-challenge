@@ -1,11 +1,15 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(34, 4, 37);
 }
 .container {
 }
 .movie-card {
 }
 .movie-image {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
 }
 .movie-details-container {
 }
